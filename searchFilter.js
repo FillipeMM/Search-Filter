@@ -27,7 +27,7 @@
   
   function filterData(model, arrayData, attribute){
       var result = [];
-      var regexp = new RegExp((".*"+model.split("").join('.*')+".*"), "i");
+      var regexp = new RegExp((".*"+model.split("").join('.*')), "i");
       arrayData.filter((obj) =>{
           if(obj[attribute].match(regexp)){
               result.push(obj);
