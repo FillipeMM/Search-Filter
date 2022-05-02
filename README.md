@@ -1,2 +1,2 @@
 # Search Filter
-Function used to filter a data through a data input
+Function used to filter data through a data input
